@@ -197,9 +197,9 @@ const Dashboard = () => {
 
   {/* Launch Status Dropdown - Right */}
   <div className="filter-group" style={{ textAlign: 'right', minWidth: '200px' }}>
-    {/*<label htmlFor="statusFilter">
+    <label htmlFor="statusFilter">
       Launch Status <span style={{ fontSize: '12px' }}>▼</span>
-    </label>*/}
+    </label>
     <select
       id="statusFilter"
       value={statusFilter}
